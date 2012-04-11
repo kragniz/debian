@@ -1,0 +1,6 @@
+ponysay (0.7-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)
+  * This is my first Debian package.
+
+ -- Louis Taylor <kragniz@gmail.com>  Tue, 10 Apr 2012 23:38:10 +0100

@@ -1,0 +1,13 @@
+Source: ponysay
+Section: games
+Priority: optional
+Maintainer: Louis Taylor <kragniz@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/erkin/ponysay
+Vcs-Git: git://git.debian.org/collab-maint/ponysay.git
+Package: ponysay
+Architecture: all
+Depends: cowsay, bash
+Description: A cowsay wrapper with ponies.
+ Ponysay (or ponythink) brightens up your terminal with multicolour ponies.
