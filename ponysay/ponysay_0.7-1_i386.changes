@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 10 Apr 2012 23:38:10 +0100
+Source: ponysay
+Binary: ponysay
+Architecture: source all
+Version: 0.7-1
+Distribution: unstable
+Urgency: low
+Maintainer: Louis Taylor <kragniz@gmail.com>
+Changed-By: Louis Taylor <kragniz@gmail.com>
+Description: 
+ ponysay    - A cowsay wrapper with ponies.
+Changes: 
+ ponysay (0.7-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)
+   * This is my first Debian package.
+Checksums-Sha1: 
+ 79ff231593e3f52ae9eef0ad5cde4e8e5032f6a9 1344 ponysay_0.7-1.dsc
+ 814f0278c634c2ce502ad8522467794ba3bc7dde 19784 ponysay_0.7.orig.tar.gz
+ 02431a4fdf2795bfa99966fa6170221f2acf0864 5358 ponysay_0.7-1.debian.tar.gz
+ 335ab7f66bb81be9220b3d94516ef4ba1c42553b 22956 ponysay_0.7-1_all.deb
+Checksums-Sha256: 
+ 86de4f345d3fe272145aa8e60bca7349fdedf09290f94ce919079c42c827a4cd 1344 ponysay_0.7-1.dsc
+ 312b72a87b653a4eb80b166466a741aea84fbc06fb1e658c31220c50d246adde 19784 ponysay_0.7.orig.tar.gz
+ e885a233ec30854f08e26096cd2029c550b71d0fa51e6907e19b5cb58132472b 5358 ponysay_0.7-1.debian.tar.gz
+ b8a91875075058df2074daa758fc8ee5435702e200d5a244598ed7948b3894a8 22956 ponysay_0.7-1_all.deb
+Files: 
+ 0eb62d26005c8ebd6026a8bb963d2aa6 1344 games optional ponysay_0.7-1.dsc
+ 04dd655eb102ae31a5a1f11f2c815448 19784 games optional ponysay_0.7.orig.tar.gz
+ a6f9a6613112e9ad4424c4e27e13e04f 5358 games optional ponysay_0.7-1.debian.tar.gz
+ 728636769fd3d3f554543ad9755fcde8 22956 games optional ponysay_0.7-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJPhhNQAAoJEI6BptrhPnCYO68IAKQfCbq/7YcK+gGtJcGdgbV8
+PGe0k/DttspBf7NmWFKgZMMbQCROr01KMn7NByYEKa3jI4Q1Dbb53Tb4nvg9VqzE
+6i5H1WoEza6shjCFodL0Sm7AWSaeOUc4NJYkt/rRoFdv1ueNgdZd24fUnuQ2vBQ8
+3/VOWKK3iZQSZonFT1o98IvEaly1Wch+X2FuILD5rj70eVeNFKm2IVS+tisMmmo/
+zUs+PYCSFm7B2HZsiD8wuB+JN7O6e05uyIHdVbxdr22o7EgF9dPRXs6H4m7OBn+f
+p6/Not/ynqcnt64rlZZ5/5z1SVS3DlRweoQWsn9gg2o2mD17EhbuTAVle5qPSrI=
+=ML9g
+-----END PGP SIGNATURE-----

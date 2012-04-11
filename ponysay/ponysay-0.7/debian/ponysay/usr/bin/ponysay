@@ -1,0 +1,95 @@
+#!/usr/bin/env bash
+
+version=0.7
+SYSTEMPONIES=/usr/share/ponies
+HOMEPONIES="${HOME}/.ponies"
+pony="*"
+wrap=
+
+cmd=cowsay
+[[ ${0} == *ponythink ]] && cmd=cowthink
+
+version() {
+    echo "ponysay v$version"
+}
+
+list() {
+    echo "ponyfiles located in $SYSTEMPONIES:"
+    ls -1 $SYSTEMPONIES | sed "s/.pony//"
+    if [[ -d $HOMEPONIES ]]; then
+	echo "ponyfiles located in $HOMEPONIES:"
+	ls -1 $HOMEPONIES | sed "s/.pony//"
+    fi
+}
+
+usage() {
+    version
+    cat <<EOF
+
+Usage:
+${0##*/} [options] [message]
+
+If [message] is not provided, reads the message from STDIN
+
+Options:
+  -v          Show version and exit
+  -h          Show this help and exit
+  -l          List ponyfiles.
+  -f[name]    Select a pony (Either a filename or a pony name)
+  -W[column]  The screen column where the message should be wrapped
+EOF
+}
+
+say() {
+    # Ponies use UTF-8 drawing characters. Prevent a Perl warning.
+    export PERL_UNICODE=S
+
+    exec "$cmd" -f "$pony" "${wrap:+-W$wrap}"
+}
+
+while getopts f:W:lhv OPT
+do
+    case ${OPT} in
+        v)  version; exit ;;
+        h)  usage; exit ;;
+        f)  pony="$OPTARG" ;;
+	l)  list; exit ;;
+        W)  wrap="$OPTARG" ;;
+        \?) usage >&2; exit 1 ;;
+    esac
+done
+shift $((OPTIND - 1))
+
+if ! hash $cmd &>/dev/null; then
+    cat >&2 <<EOF
+You don't seem to have the $cmd program.
+Please install it in order to use this wrapper.
+
+Alternatively, symlink it to '$cmd' in anywhere in \$PATH
+if it actually exists under a different filename.
+EOF
+    exit 1
+fi
+
+if [[ ! -f $pony ]]; then
+    # Pony not a file? Search for it
+
+    ponies=()
+    [[ -d $SYSTEMPONIES ]] && ponies+=( "$SYSTEMPONIES"/$pony.pony )
+    [[ -d $HOMEPONIES ]] && ponies+=( "$HOMEPONIES"/$pony.pony )
+
+    if (( ${#ponies} < 1 )); then
+        echo >&2 "All the ponies are missing! Call the Princess!"
+        exit 1
+    fi
+
+    # Choose a random pony
+    pony="${ponies[$RANDOM%${#ponies[@]}]}"
+fi
+
+if [[ -n "$*" ]]; then
+  # Handle a message given via arguments
+  say <<<"$*"
+else
+  say
+fi

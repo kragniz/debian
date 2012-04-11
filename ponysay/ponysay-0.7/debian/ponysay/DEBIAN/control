@@ -1,0 +1,10 @@
+Package: ponysay
+Version: 0.7-1
+Architecture: all
+Maintainer: Louis Taylor <kragniz@gmail.com>
+Installed-Size: 218
+Depends: cowsay, bash
+Section: games
+Priority: optional
+Description: A cowsay wrapper with ponies.
+ Ponysay (or ponythink) brightens up your terminal with multicolour ponies.
