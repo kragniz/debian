@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 12 Apr 2012 18:18:14 +0100
+Source: tinyirc
+Binary: tinyirc
+Architecture: source i386
+Version: 1:1.1.1.dfsg.1-1.1
+Distribution: unstable
+Urgency: low
+Maintainer: Louis Taylor <kragniz@gmail.com>
+Changed-By: Louis Taylor <kragniz@gmail.com>
+Description: 
+ tinyirc    - a tiny IRC client
+Closes: 660510
+Changes: 
+ tinyirc (1:1.1.1.dfsg.1-1.1) unstable; urgency=low
+ .
+   * New Maintainer (Closes: #660510)
+   * New upstream release
+Checksums-Sha1: 
+ d9527c0b9e8aabd0f933e1760c5cd93d02966045 1092 tinyirc_1.1.1.dfsg.1-1.1.dsc
+ 6cf86c66f6fe8ae7224cc93119273194ec6818b6 32278 tinyirc_1.1.1.dfsg.1-1.1.tar.gz
+ a15f931ddda3fc8bd68a70a4aa985dea6634dd69 28076 tinyirc_1.1.1.dfsg.1-1.1_i386.deb
+Checksums-Sha256: 
+ 14ac04ea82675928a1db057c98f190940809a18d82c7f10f354bed5140e15907 1092 tinyirc_1.1.1.dfsg.1-1.1.dsc
+ b2596a170db7686ff6cdc9ea0c8904aade7bdeaaf0fb30daeb5ab04624bc2e37 32278 tinyirc_1.1.1.dfsg.1-1.1.tar.gz
+ 511aa9859868b24dca8af82adfede6963fc545b0e7e951624ee7640823b89a59 28076 tinyirc_1.1.1.dfsg.1-1.1_i386.deb
+Files: 
+ 74764bf32b1db199e6ec1a3c37cd609d 1092 net optional tinyirc_1.1.1.dfsg.1-1.1.dsc
+ e6966c7acea0a3f080aa68efd4a8d7b3 32278 net optional tinyirc_1.1.1.dfsg.1-1.1.tar.gz
+ 435f10bea022624c19db59cad562b198 28076 net optional tinyirc_1.1.1.dfsg.1-1.1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJPh0nXAAoJEI6BptrhPnCYaYcH/RJZ79vS0mJk4f9oQv+v1cXI
+dOHuIjeyYExR535ThniwbK7+4kyS+dC0r7mah6yOwnP4HZyHl3n/Ji7e/X/jndmF
+iInsBnREapfj1jwipqGxNYNMe9Kaj7deELsmJjxAhxZ4FihTMO1Nn/yTqchp0g2A
+9ReIiNErE3Jqjd17BTJR53u8YNrLkC7cPBQpB3hymUhvWEQcSHvEJIuO76PbEMH8
+Ke2Pd0nvkVnuR4aBVWG1DE6oMGzj1DfIUrF585Zm/KIcx9QQILB95hfUW4Lyl2Eb
+iO7FIoDhegIrkczsCziVXPz1tbJjhendZiFaqj6AKzDEjjLoUuz7s+xcCfJd304=
+=6RP4
+-----END PGP SIGNATURE-----

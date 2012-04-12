@@ -19,26 +19,26 @@ Changes:
  .
    * New Maintainer (Closes: #660510)
 Checksums-Sha1: 
- 78ad1d8277ef16711b724516b07f4300ff7b10e8 1337 tinyirc_1.1.dfsg.1-1.1.dsc
- 1072bc49600a10dd13fec919ba6795bf2850c268 5564 tinyirc_1.1.dfsg.1-1.1.diff.gz
- d42f78c023a912750566033b84d37554dd793b20 27988 tinyirc_1.1.dfsg.1-1.1_i386.deb
+ 80972b065350c8f997388471e952676fb59b5197 1337 tinyirc_1.1.dfsg.1-1.1.dsc
+ 7bc871f351fbe177c33cfeefd650ef616d37b2a6 7196 tinyirc_1.1.dfsg.1-1.1.diff.gz
+ 5d8c7c04fa157d0a29692bae189c209d9fafd577 28064 tinyirc_1.1.dfsg.1-1.1_i386.deb
 Checksums-Sha256: 
- 5f00d91214fe066e3f4b7f51f41cc357c21d5a5061d35c2854be607769933a28 1337 tinyirc_1.1.dfsg.1-1.1.dsc
- 4afb2e38cd414c012cc6aa01da53a591f8eca92b2c739c391876adcbf8cb00ea 5564 tinyirc_1.1.dfsg.1-1.1.diff.gz
- 7148627dca8d2637a0a7a4c19bcebe26ab185a5182fbfcb01e9a917ed95e73ef 27988 tinyirc_1.1.dfsg.1-1.1_i386.deb
+ d981520ec3e0b261a090e174dd6b5ba6de660c946004ae608131a057d6ab2b29 1337 tinyirc_1.1.dfsg.1-1.1.dsc
+ 1d0c055ee65da0ca7e5569c6d18d8b9399667f34a94182b66288810c5496522b 7196 tinyirc_1.1.dfsg.1-1.1.diff.gz
+ 3c1eca5a65eaba4840aa636d0d2d9dd4b662e4d93811b7c90420ff46f2b327ed 28064 tinyirc_1.1.dfsg.1-1.1_i386.deb
 Files: 
- 7dc515437141a983a6a64924ecdc030f 1337 net optional tinyirc_1.1.dfsg.1-1.1.dsc
- 48792efa1a61375771f701b54b919b37 5564 net optional tinyirc_1.1.dfsg.1-1.1.diff.gz
- f6908d95c62a8eb969c5b9a250ee6ade 27988 net optional tinyirc_1.1.dfsg.1-1.1_i386.deb
+ 890bee92e7937637704a3b7e01e1d070 1337 net optional tinyirc_1.1.dfsg.1-1.1.dsc
+ a3b2874876f7fe31d8319bfa8c60449a 7196 net optional tinyirc_1.1.dfsg.1-1.1.diff.gz
+ 72f7f726099f2f3bd8a5fd8a34c7fc10 28064 net optional tinyirc_1.1.dfsg.1-1.1_i386.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJPhx5QAAoJEI6BptrhPnCYmjcH/2vQhZbPG2shPU3WBVttb+SI
-FLzzkGpOhmw+6zfspivYCeRITkjH7DtIDmHZVQXdvfNE4gk7hvZiOfGKG4D5EJKj
-xca0Ww+bj2RWy39ugj6bYSiuloFYChNBZR/cB/SXCiGhtn2xyedRMZy2FdtRWwF7
-6aF2sTE0aH90mBmv5ZjD05v2h00eJx8eQ0/zlkZIPuiVIMOecRo9LBz3NGzfBNJf
-HALilqGAbHD/gU425/ai08EAKGVQnw8lxAy1IRlh2xvSoETDvfMmLr65u8hsJJDL
-FsLeAsi0ihsoX6HoEyBzDmonZrmoDeLAmoshszlVeSOdm+OUNMXHJEY8CluQ3t8=
-=B0p4
+iQEcBAEBAgAGBQJPhyL6AAoJEI6BptrhPnCYg0oH/1GyfkPmTuOQtSUplVdZXtiA
+FgQU5dGmh2mPaPNE3SS/CbM0sLo3jY1a8sJ0rAdffTYa0/d1OGlTXUdizvyqXFjh
+P3pkbGud6CvxpWgs2ptAy9u1FS1Do9ucyaqTfJf+4yaL2D3valD2+BOzFmR91fLf
+hvC93p/i/9kbW37mLzW9GiBW2ovk1/lprGFdPDqYs/KPTSbUZWwNrt/itq7hY4sy
+kUcjVndfGUjzFyRSb8KRSzmvdpVgGfXxIPa/0Gf2awOaxyO0ds46az29WumgDm/h
+Zr2iwnxllz3wYXI6EBTuIN6t+PUr4cQspFFC3ytUIAm6kyuBrlruomwK89rpT3Y=
+=A2/F
 -----END PGP SIGNATURE-----
