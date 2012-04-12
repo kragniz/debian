@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 21
+/svn/!svn/ver/7/trunk
+END
+announce
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/2/trunk/announce
+END
+tinyircd.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/6/trunk/tinyircd.c
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/COPYING
+END
+server-numerics
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/server-numerics
+END
+DCC.doc
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/DCC.doc
+END
+ctcp.doc
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/2/trunk/ctcp.doc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/7/trunk/Makefile
+END
+magic
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/2/trunk/magic
+END
+tinyirc.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/7/trunk/tinyirc.c
+END
